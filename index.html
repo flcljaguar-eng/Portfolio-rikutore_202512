@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Hijikata WEB Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Hijikata Portfolio">
+	<mete prophery="og:description" content="土方一輝のHTML&CSSを利用したポートフォリオです。定期的に更新します。作成日2025/12/24　最終更新日2025/12/24" <meta
+		prophery="og:image" content="../picture/DSC_0964.jpg">
+
+		<!-- リセットCSS -->
+		<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+		<!-- Googleフォント -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+
+		<!-- オリジナルCSS -->
+		<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<header class="page-header">
+		<h1 class="welcome"> Welcome</h1>
+	</header>
+	<article class="biograpy">
+
+		<section class="profile"><!-- イラストはいらすとやから借用 -->
+			<h3 class="heading-large font-english">Profile</h3>
+			<div class="profile-section">
+				<a href="index.html"><img class="profile-img" src="./picture/penguin05_hige.png" alt="ヒゲペンギン"></a>
+				<div class="my-profile">
+					<p>土方一輝</p>
+					<p>
+						4年制大学中退後、飲食店やスーパーマーケットなどでフリーターとして過ごしたのち
+						某遊技機メーカーの品質管理業務に従事。マイコンへの興味から現在はシステムエンジニアとして学習中。
+						夢は0から1を作れる様なエンジニアになること。将来的にはハードへの組み込みなどもやってみたいです。
+						趣味はエレキギターと対戦ゲーム
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="skill">
+			<h3 class="heading-large skills">Skill-2025/12/24</h3>
+			<main class="wrapper grid">
+			<div class="skill-list">
+				<div class="java">
+					<h4 class="java-list">Java</h4>
+					<ul>
+						<li>Javaの基礎構文（変数宣言、配列、条件分岐、繰り返し）</li>
+						<li>Javaの独自構文（クラス、メソッド、継承、カプセル化）</li>
+						<li>Javaの応用構文（コレクションフレームワーク、例外処理）</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="skill-list">
+				<div class="sql">
+					<h4 class="sql-list">SQL</h4>
+					<ul>
+						<li>Oracleデータベース環境の構築</li>
+						<li>SQLの基礎構文（select、insert、update、delete）の習得</li>
+						<li>SQLの応用構文（集約、並び替え、結合、副問い合わせ）の習得</li>
+						<li>JDBCの理解と演習課題（社員管理システム）の実践</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="skill-list">
+				<div class="html-css">
+					<h4 class="html-list">HTML & CSS</h4>
+					<ul>
+						<li>HTMLの基本構文（タグ、属性）</li>
+						<li>CSSの基本構文（セレクター、プロパティ、値）</li>
+						<li>本ポートフォリオの作成</li>
+					</ul>
+				</div>
+			</div>
+			</main>
+		</section>
+
+		<section class="work"><!-- 画像素材はhttps://icooon-mono.com/から借用しました -->
+			<h3 class="heading-large works">Works</h3>
+			<p>制作物など</p>
+
+			<div class="work-list">
+				<div class="work-link">
+					<img class="github-img" src="./picture/cat.png" alt="git">
+					<a class="btn" href="https://github.com/flcljaguar-eng/daily-java">練習問題リポジトリ</a>
+				</div>
+
+				<div class="work-link">
+					<img class="github-img" src="./picture/cat.png" alt="git">
+					<a class="btn" href="https://github.com/flcljaguar-eng/consoleapp_teamC">社員情報CRUD-コンソールアプリ</a>
+				</div>
+
+				<div class="work-link">
+					<img class="nortion-img" src="./picture/graph.png" alt="nortion">
+					<a class="btn"
+						href="https://grizzled-situation-093.notion.site/_-2a86901c8efd817dbc69c2af2a331385?pvs=74">notion課題進捗管理ガンドチャート</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="mail">
+			<h3 class="heading-medium font-english">Contact</h3>
+			<p>
+				以下のボタンからメールを送信できます。
+			</p>
+
+			<div class="align-center">
+				<a class="mailbtn" href="mailto:flcljaguar@gmail.com">メールを送る</a>
+			</div>
+		</section>
+	</article>
+
+	<footer class="page-footer">
+		<h3 class="heading-large font-english">Information</h3>
+		<table class="info">
+			<p>所属企業:アーチ株式会社</p>
+			<tr>
+				<th>本社</th>
+				<td>福岡県博多区堅粕4丁目14番16号　ランクルビル</td>
+				<td>092-292-3759</td>
+			</tr>
+			<tr>
+				<th>支社</th>
+				<td>東京都渋谷区代々木1丁目45番6号　豊田ビル3F</td>
+				<td>03-6304-2603</td>
+			</tr>
+		</table>
+		<div class="copyright">
+			<small>&copy; 2025 Kazuki Hijikata</small>
+		</div>
+	</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/* 共通部分	
+------------------------- */
+html{
+	font-size: 100%;
+}
+body{
+	font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Biz UDPGothic", sans-serif;
+	line-height: normal;
+	color: #432;
+	background-color: #f1eac3;
+}
+
+/* ヘッダー */
+
+
+/* プロフィール */
+.profile{
+	margin-top: 2rem;
+}
+.profile-img{
+	width: 80px;
+	height: auto;
+	object-fit: cover;
+}
+.profile-section{
+	display: flex;
+}
+
+/* スキル */
+.skill{
+	margin-top: 4rem;
+}
+.grid{
+	display: grid;
+	gap: 2rem 1.5rem;
+	grid-template-columns: repeat(2, 1fr);
+}
+.skill-list{
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	margin: 40px;
+	background-color: #eed13f;
+	max-width: 916px;
+	border-radius: 50px;
+	padding: 1.5rem 2.5rem 2.5rem;
+}
+
+
+/* 成果物 */
+.work{
+	margin-top: 4rem;
+}
+.work-list{
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	margin-top: 2rem;
+}
+.work-link{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.github-img{
+	width: 60px;
+	height: auto;
+	object-fit: cover;
+}
+.nortion-img{
+	width: 4rem;
+	height: auto;
+	object-fit: cover;
+}
+.btn{
+	font-size: small;
+}
+
+/* お問い合わせ */
+.mail{
+	margin-top: 4rem;
+}
+.mailbtn{
+	background-color: #b0941e;
+}
+
+/* フッター */
+.page-footer{
+	margin-top: 4rem;
+}
+.copyright {
+    background-color: #432;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 6rem;
+    color: #fff;
+}
