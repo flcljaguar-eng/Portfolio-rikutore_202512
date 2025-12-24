@@ -13,7 +13,15 @@ body{
 }
 
 /* ヘッダー */
-
+.page-header{
+    padding: 6rem;
+    margin-top: 0;
+    background-color:  #432;
+    color: white;
+}
+.welcome {
+    text-align: center;
+}
 
 /* プロフィール */
 .profile{
@@ -26,6 +34,9 @@ body{
 }
 .profile-section{
 	display: flex;
+}
+.name{
+	
 }
 
 /* スキル */
