@@ -2,53 +2,62 @@
 
 /* 共通部分	
 ------------------------- */
-html{
+html {
 	font-size: 100%;
 }
-body{
+
+body {
 	font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Biz UDPGothic", sans-serif;
 	line-height: normal;
 	color: #432;
 	background-color: #f1eac3;
 }
 
-/* ヘッダー */
-.page-header{
-    padding: 6rem;
-    margin-top: 0;
-    background-color:  #432;
-    color: white;
+article {
+	margin: 10px 4rem;
 }
+
+/* ヘッダー */
+.page-header {
+	padding: 6rem;
+	margin-top: 0;
+	background-color: #432;
+	color: white;
+}
+
 .welcome {
-    text-align: center;
+	text-align: center;
 }
 
 /* プロフィール */
-.profile{
+.profile {
 	margin-top: 2rem;
 }
-.profile-img{
+
+.profile-img {
 	width: 80px;
 	height: auto;
 	object-fit: cover;
 }
-.profile-section{
+
+.profile-section {
 	display: flex;
 }
-.name{
-	
-}
+
+/*.name {}*/
 
 /* スキル */
-.skill{
+.skill {
 	margin-top: 4rem;
 }
-.grid{
+
+.grid {
 	display: grid;
 	gap: 2rem 1.5rem;
 	grid-template-columns: repeat(2, 1fr);
 }
-.skill-list{
+
+.skill-list {
 	display: flex;
 	justify-content: center;
 	gap: 2rem;
@@ -61,50 +70,68 @@ body{
 
 
 /* 成果物 */
-.work{
+.work {
 	margin-top: 4rem;
 }
-.work-list{
+
+.work-list {
 	display: flex;
 	justify-content: center;
 	gap: 2rem;
 	margin-top: 2rem;
 }
-.work-link{
+
+.work-link {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-.github-img{
+
+.github-img {
 	width: 60px;
 	height: auto;
 	object-fit: cover;
 }
-.nortion-img{
+
+.application-img {
+	width: 60px;
+	height: auto;
+	object-fit: cover;
+}
+
+.nortion-img {
 	width: 4rem;
 	height: auto;
 	object-fit: cover;
 }
-.btn{
+
+.btn {
 	font-size: small;
 }
 
 /* お問い合わせ */
-.mail{
+.mail {
 	margin-top: 4rem;
 }
-.mailbtn{
+
+.mailbtn {
 	background-color: #b0941e;
 }
 
-/* フッター */
-.page-footer{
+/* インフォメーション */
+.infomation {
 	margin-top: 4rem;
 }
+
+/* フッター */
+.page-footer {
+	margin-top: 3rem;
+}
+
 .copyright {
-    background-color: #432;
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 6rem;
-    color: #fff;
+	background-color: #432;
+	text-align: center;
+	padding: 1rem 0;
+	margin-top: 6rem;
+	color: #fff;
 }
